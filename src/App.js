@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OceanBlock from './OceanBlock';
+import Ocean from './Ocean';
 import './App.css';
 
 class App extends Component {
@@ -30,7 +30,7 @@ class App extends Component {
     
     return (
       <div className="App">
-          <OceanBlock />
+        <Ocean />
       </div>
     );
   }
